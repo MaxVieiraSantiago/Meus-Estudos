@@ -1,0 +1,9 @@
+digraph Tree {
+node [shape=box, fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="Cloroquina <= 0.5\nentropy = 0.94\nsamples = 14\nvalue = [9, 5]"] ;
+1 [label="entropy = 0.918\nsamples = 6\nvalue = [2, 4]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="entropy = 0.544\nsamples = 8\nvalue = [7, 1]"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
